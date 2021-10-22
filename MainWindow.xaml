@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock>destination</TextBlock>
+            <TextBox x:Name="destinationBox" Width="250" ></TextBox>
+            <TextBlock>file</TextBlock>
+            <TextBox x:Name="fileBox" Width="250" ></TextBox>
+            <Button Height="100" Width="100" Click="Button_Click">Test</Button>
+        </StackPanel>
     </Grid>
 </Window>
